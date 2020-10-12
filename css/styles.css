@@ -1,0 +1,274 @@
+/***************************************** general style**************************************************/
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  background-color: hsl(217, 28%, 15%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  line-height: 3.75rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.33rem;
+}
+
+.myButton {
+  background: linear-gradient(
+    to right,
+    hsl(176, 68%, 64%) 5%,
+    hsl(198, 60%, 50%) 100%
+  );
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 1rem;
+  padding: 15px 60px;
+  text-decoration: none;
+  border: none;
+  border-radius: 25px;
+  width: 300px;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+
+/**************************************** sections style**************************************************/
+/*Navbar*/
+
+.navbar {
+  font-weight: 400;
+  margin: 3% 5%;
+}
+
+/*************************************************Introduction section*/
+.introduction {
+  background: bottom no-repeat url("../images/bg-curvy-desktop.svg");
+  padding-bottom: 20px;
+  background-color: hsl(217, 28%, 15%);
+  margin-right: -10%;
+  margin-left: -10%;
+}
+
+.introduction-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.introduction-container {
+  max-width: 720px;
+  margin: 10% auto;
+  text-align: center;
+}
+
+.introduction-text {
+  width: 85%;
+  margin: 2% auto;
+  font-size: 1.25rem;
+}
+
+/*****************************************************features section*/
+
+.features {
+  background-color: hsl(218, 28%, 13%);
+}
+
+.features-container {
+  width: 70%;
+  margin: auto;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.feature-image {
+  margin-bottom: 20px;
+}
+
+/*****************************************************how-to section*/
+
+.how-to {
+  background-color: hsl(218, 28%, 13%);
+}
+
+.how-to-container {
+  width: 85%;
+  margin: auto;
+}
+
+.how-to-text-column {
+  padding: 8% 2%;
+}
+
+.how-to-container h1 {
+  width: 70%;
+  line-height: 3rem;
+}
+.how-to-container p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.how-to-link {
+  padding-bottom: 1%;
+  color: hsl(176, 68%, 64%);
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+.how-to-link img {
+  margin-left: 5px;
+}
+
+/*****************************************************testimonials*/
+
+.testimonials {
+  background-color: hsl(218, 28%, 13%);
+  padding-top: 7%;
+  padding-bottom: 25%;
+}
+
+.testimonials-container {
+  width: 80%;
+  margin: auto;
+  background: top left no-repeat url("../images/bg-quotes.png");
+  padding-top: 30px;
+}
+
+.testimonials-box {
+  background-color: hsl(219, 30%, 18%);
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px hsl(217, 28%, 15%);
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.testimonials-image {
+  border-radius: 30px;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 8px;
+}
+
+.profile-container {
+  display: flex;
+}
+
+.profile {
+  line-height: 1;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.job {
+  font-size: 8px;
+}
+
+/**********************************************call-to-actions*/
+
+.call-to-action {
+  position: relative;
+}
+
+.call-to-action-container {
+  position: absolute;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: -150px;
+  text-align: center;
+  background-color: hsl(217, 28%, 15%);
+  padding: 2% 5%;
+  border-radius: 5px;
+  box-shadow: 10px 2px 20px black;
+}
+
+.call-to-action p {
+  width: 90%;
+  margin: auto;
+}
+
+input {
+  border-radius: 40px;
+  width: 450px;
+  height: 3rem;
+  padding-left: 4%;
+}
+
+input::placeholder {
+  color: rgb(212, 212, 212);
+  font-size: 0.8rem;
+}
+
+.call-to-action-container .myButton {
+  width: 200px;
+  padding: 2% 0%;
+  height: 3rem;
+}
+
+/**********************************************footer*/
+
+footer {
+  padding-top: 15%;
+  background-color: hsl(216, 53%, 9%);
+}
+
+.footer-container {
+  margin-left: 120px;
+  margin-right: 80px;
+  font-size: 1rem;
+}
+
+.logo-row {
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding-top: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.contact-icon {
+  margin-right: 20px;
+}
+
+.contact-links-col {
+  padding-right: 0;
+}
+.contact-links {
+  padding: 0;
+}
+
+.social-medias {
+  text-align: center;
+}
+.fab {
+  margin-right: 10px;
+}
